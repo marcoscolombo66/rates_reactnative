@@ -1,0 +1,39 @@
+# Learn more https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files
+
+# dependencies
+rate-repository-app/node_modules/
+rate-repository-api/node_modules/
+
+# Expo
+rate-repository-app/.expo/
+rate-repository-app/dist/
+rate-repository-app/web-build/
+
+# Native
+*.orig.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+
+# Metro
+.metro-health-check*
+
+# debug
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+# macOS
+.DS_Store
+*.pem
+
+# local env files
+rate-repository-app/.env*.local
+rate-repository-api/.env*.local
+
+
+
+# typescript
+*.tsbuildinfo
